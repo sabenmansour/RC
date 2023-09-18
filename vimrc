@@ -61,7 +61,7 @@ map <C-n> :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen = 1
 
 " Vim Airline
-let g:airline_theme = 'powerlineish'
+"let g:airline_theme = 'default'
 
 " Configuration spécifique à un langage
 " Exemple pour Python
