@@ -53,6 +53,19 @@ Plug 'tpope/vim-sensible'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'majutsushi/tagbar'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/fzf'
+Plug 'junegunn/vim-plug'
+Plug 'ycm-core/YouCompleteME'
+Plug 'Stirver/ultisnips'
+Plug 'vim-syntastic/syntactic'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
+Plug 'honza/vim-snippets'
+Plug 'dense-analysis/ale'
+
 
 
 " Ajoutez d'autres plugins ici
