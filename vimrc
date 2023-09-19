@@ -52,12 +52,21 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
+Plug 'majutsushi/tagbar'
+
+
 " Ajoutez d'autres plugins ici
 call plug#end()
+
+" Configuration Tagbar
+nmap <F8> :TagbarToggle<CR>
+let g:tagbar_autofocus = 1
+let g:tagbar_width = 30
 
 " Configurations pour les plugins
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
 let NERDTreeQuitOnOpen = 1
 
 " Vim Airline
@@ -103,4 +112,4 @@ set completeopt=menuone,menu,longest
 set list
 set listchars=tab:→\ ,trail:·
 
-
+let g:tagbar_ctags_bin = '/usr/bin/ctags'
